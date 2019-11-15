@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import subprocess
+import sys
+
+HERE = Path(__file__).parent.absolute()
+subprocess.run([sys.executable, "-m", "venv", HERE / "venv"])
+subprocess.run(
+    [
+        HERE / "venv" / "bin" / "python", "-m", "pip",
+        "install", "-r", HERE / "requirements.txt",
+    ],
+)
