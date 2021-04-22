@@ -10,7 +10,7 @@ attrs==19.3.0
     # via jsonschema
 backcall==0.1.0
     # via ipython
-bleach==3.1.4
+bleach==3.3.0
     # via nbconvert
 certifi==2019.9.11
     # via requests
@@ -103,6 +103,8 @@ notebook==6.1.5
     #   widgetsnbextension
 nteract-on-jupyter==2.1.3
     # via -r requirements.in
+packaging==20.9
+    # via bleach
 pandocfilters==1.4.2
     # via nbconvert
 parso==0.5.1
@@ -129,6 +131,8 @@ pygments==2.7.4
     #   jupyter-console
     #   nbconvert
     #   qtconsole
+pyparsing==2.4.7
+    # via packaging
 pyrsistent==0.15.5
     # via jsonschema
 python-dateutil==2.8.1
