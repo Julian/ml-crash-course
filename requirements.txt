@@ -96,7 +96,9 @@ nbformat==4.4.0
     #   ipywidgets
     #   nbconvert
     #   notebook
-notebook==6.4.1
+nest-asyncio==1.5.5
+    # via notebook
+notebook==6.4.10
     # via
     #   jupyter
     #   nteract-on-jupyter
@@ -145,7 +147,7 @@ qtconsole==4.5.5
     # via jupyter
 requests==2.22.0
     # via h2o
-send2trash==1.5.0
+send2trash==1.8.0
     # via notebook
 six==1.13.0
     # via
