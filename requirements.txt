@@ -98,7 +98,7 @@ nbformat==4.4.0
     #   notebook
 nest-asyncio==1.5.5
     # via notebook
-notebook==6.4.10
+notebook==6.4.12
     # via
     #   jupyter
     #   nteract-on-jupyter
